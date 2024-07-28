@@ -1,0 +1,92 @@
+/* Container for the resume preview page */
+.resume-preview-container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f7f7f7;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  /* Header of the resume preview */
+  .resume-preview-header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 8px 8px 0 0;
+  }
+  
+  /* Section container */
+  .resume-preview-section {
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Section headings */
+  .resume-preview-section h2 {
+    font-size: 1.5em; /* Decrease the size of the headings */
+    border-bottom: 2px solid #333;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+  }
+  
+  /* Item container within each section */
+  .resume-preview-item {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+  }
+  
+  /* Label within each item */
+  .resume-preview-item label {
+    font-weight: bold;
+    width: 30%;
+  }
+  
+  /* Value within each item */
+  .resume-preview-item span {
+    width: 70%;
+  }
+  
+  /* Export button styles */
+  .export-button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  .export-button:hover {
+    background-color: #555;
+  }
+  
+  /* Navbar styling */
+  .navbar {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .navbar a {
+    color: #fff;
+    padding: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .navbar a:hover {
+    text-decoration: underline;
+  }
+  

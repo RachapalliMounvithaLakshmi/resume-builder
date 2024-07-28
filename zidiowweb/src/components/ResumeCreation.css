@@ -1,0 +1,86 @@
+/* src/components/ResumeCreation.css */
+
+.resume-creation-container {
+    width: 80%; /* or your desired width */
+    margin: 0 auto;
+  }
+  
+  .resume-header {
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+  
+  .education-section, .projects-internships-section, .areas-of-interest-section, .technical-skills-section {
+    margin: 1.5rem 0;
+  }
+  
+  .sub-heading {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+  }
+  
+  .grid-container {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .input-group {
+    flex: 1;
+    margin-bottom: 1rem;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .input-group input {
+    width: 100%;
+  }
+  
+  .project-container, .interest-container, .skill-container {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    background-color: #f9f9f9;
+  }
+  
+  .add-button {
+    display: block;
+    margin: 1.5rem auto 0;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .add-button:hover {
+    background-color: #218838;
+  }
+  
+  .save-button {
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-size: 1rem;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .save-button:hover {
+    background-color: #0056b3;
+  }
+  
